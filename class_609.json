@@ -1,1 +1,15 @@
-[{"id":1, "name":"김근영","gender":"Female","team":"짱2조"},{"id":2, "name":"김두나","gender":"Female","team":"짱2조"},{"id":3, "name":"김민경","gender":"Female","team":"베이지"},{"id":4, "name":"남성주","gender":"Male","team":"큰형님과 아이들"},{"id":5, "name":"박성호","gender":"Male","team":"큰형님과 아이들"},{"id":6, "name":"신가연","gender":"Female","team":"오신양"},{"id":7, "name":"양성수","gender":"Male","team":"오신양"},{"id":8, "name":"유용국","gender":"Male","team":"큰형님과 아이들"},{"id":9, "name":"이선문","gender":"Male","team":"할수있조"},{"id":10, "name":"이은지","gender":"Female","team":"베이지"},{"id":11, "name":"이재연","gender":"Female","team":"할수있조"},{"id":12, "name":"장유정","gender":"Female","team":"짱2조"},{"id":13, "name":"장하나","gender":"Female","team":"할수있조"},{"id":14, "name":"탁유림","gender":"Female","team":"베이지"},{"id":15, "name":"오다애","gender":"Female","team":"오신양"}]
+[{"id":1,"name":"사자","gender":"Female","kg":"50"},
+{"id":2,"name":"호랑이","gender":"Male","kg":"60"},
+{"id":3,"name":"원숭이","gender":"Female","kg":"15"},
+{"id":4,"name":"코끼리","gender":"Female","kg":"230"},
+{"id":5,"name":"물개","gender":"Male","kg":"77"},
+{"id":6,"name":"수달","gender":"Male","kg":"6"},
+{"id":7,"name":"펭귄","gender":"Female","kg":"10"},
+{"id":8,"name":"사막여우","gender":"Female","kg":"3.5"},
+{"id":9,"name":"기린","gender":"Female","kg":"110"},
+{"id":10,"name":"하이에나","gender":"Male","kg":"18"},
+{"id":11,"name":"곰","gender":"Male","kg":"120"},
+{"id":12,"name":"팬더","gender":"Female","kg":"100"},
+{"id":13,"name":"백호","gender":"Female","kg":"80"},
+{"id":14,"name":"캥거루","gender":"Female","kg":"50"},
+{"id":15,"name":"코알라","gender":"Male","kg":"30"}]
