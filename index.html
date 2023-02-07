@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+
+<body>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+
+        $(function(){
+            $ajax({
+                url:"class_609.json",
+                dataType:"json",
+                success:function(data){
+                    if(data.langth>0){
+                        let td=$("<table/>");
+
+                        for(let i in data){
+                            let $id= data[i].id;
+                            let $name= data[i].name;
+                            let $gender= data[i].gender;
+                            let $team= data[i].team;
+
+                            let low=$("<tr/>").append(
+                                $("<td/>").text($id),
+                                $("<td/>").text($name),
+                                $("<td/>").text($gender),
+                                $("<td/>").text($team),
+                            );
+                            tb.append(row)
+                        }
+                        }
+                    }
+                });
+            });
+
+        $('#myInput').on('keyup',function(){
+            let value=$(this).val();
+            $('.wrap tr').filter(function(){
+                $(this).toggle($(this).text().toLowerCase().indexOf(value)>-1)
+            });
+        });
+
+
+    </script>
+
+<div class="wrap"></div>
+
+
+
+
+<!--input-->
+
+<input id="myInput" type="text" placeholder="Search.."> 
+
+
+
+   
+</body>
+</html>
