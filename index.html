@@ -20,7 +20,7 @@
                 dataType:"json",
                 success:function(data){
                     if(data.langth>0){
-                        let td=$("<table/>");
+                        let tb=$("<table/>");
 
                         for(let i in data){
                             let $id= data[i].id;
@@ -36,6 +36,7 @@
                             );
                             tb.append(row)
                         }
+                        $('.wrap').append(tb)
                         }
                     }
                 });
